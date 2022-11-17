@@ -11,40 +11,11 @@ void main() {
 //   }
 //   print(mass);
 //задание 2
-//   int a = 1;
-//   List<int> mass = List.filled(50, 0);
-//   for (int i = 1; i < mass.length; i++) {
-//     mass[0] = 1;
-//     mass[i] = a + 2;
-//     a = a + 2;
-//   }
-//   print(mass);
-//задание 4
-//   List<List<int>> temp = List.generate(
-//       12, (i) => List.generate((30), (j) => Random().nextInt(30) - 12));
-//   for (int i = 0; i < temp.length; i++) {
-//     stdout.write('${i + 1} месяц:\n');
-//     for (int j = 0; j < temp[i].length; j++) {
-//       stdout.write('${temp[i][j]}  ');
-//     }
-//     print('\n');
-//   }
-//   List<int> res = sred(temp);
-//   res.sort();
-//   print(res);
+// List<int> nums = [];
+// for (int i = 1; i <= 300; i += 2){
+//   nums.add(i);
+//   stdout.write("$i ");
 // }
-// List<int> sred(List<List<int>> temp) {
-//   List<int> sred = [];
-//   for (int i = 0; i < temp.length; i++) {
-//     int sum = 0;
-//     for (int j = 0; j < temp[i].length; j++) {
-//       sum += temp[i][j];
-//     }
-//     sred.add(sum ~/ temp[i].length);
-//   }
-//   return sred;
-// }
-// }                    
 //задание 3
 //   stdout.write("Введите n: ");
 //   try {
@@ -65,9 +36,19 @@ void main() {
 //       print(' ');
 //     }
 //   } catch (e) {
-//     print("Incorrect value.");
+//     print("Неверное значение.");
 //   }
 // }
+//задание 4
+// Random random = new Random();
+
+// var temperature = List.generate(12, (int index) => List.generate(30, (int index) => random.nextInt(60) - 30, growable: false), growable: false);
+// var averageT = averageTemperature(temperature);
+// for (int i = 0; i < 12; i++){
+//   print(temperature[i]);
+// }
+// print(averageT);
+// print(sortList(averageT));        
 //задание 5
 // Map map = {
 //    'Январь': List.generate((30), (j) => Random().nextInt(5) - 35),
