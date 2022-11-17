@@ -2,14 +2,15 @@ import 'dart:io';
 import 'dart:math';
 
 void main() {
-//задание 1  
-//   int a  = 150;
-//   List<int> mass =List.filled(100, 0);
-//   for(int i = 0;i < mass.length; i++){
-//     mass[i] = a - 3;
-//     a = a - 3;
-//   }
-//   print(mass);
+//задание 1
+//  int a = 150;
+//  List<int> mass = List.filled(100, 0);
+//  for (int i = 0; i < mass.length; i++) {
+//    mass[i] = a - 3;
+//    a = a - 3;
+//  }
+//  print(mass);
+//}
 //задание 2
 // List<int> nums = [];
 // for (int i = 1; i <= 300; i += 2){
@@ -48,7 +49,8 @@ void main() {
 //   print(temperature[i]);
 // }
 // print(averageT);
-// print(sortList(averageT));        
+// print(sortList(averageT));
+// }
 //задание 5
 // Map map = {
 //    'Январь': List.generate((30), (j) => Random().nextInt(5) - 35),
