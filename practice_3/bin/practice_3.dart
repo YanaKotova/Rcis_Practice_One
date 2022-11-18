@@ -3,6 +3,7 @@ import 'dart:math';
 import 'dart:async';
 
 void main() {
+// задание 3
 //   try {
 //     File f = File('area.txt');
 
