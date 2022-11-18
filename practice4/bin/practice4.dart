@@ -159,19 +159,19 @@ import 'dart:math';
 //   }
 // }
 // задание 6
-void main() {
-  print("Введите Х");
-  double x = double.parse(stdin.readLineSync()!);
-  print("Введите Y");
-  double y = double.parse(stdin.readLineSync()!);
+// void main() {
+//   print("Введите Х");
+//   double x = double.parse(stdin.readLineSync()!);
+//   print("Введите Y");
+//   double y = double.parse(stdin.readLineSync()!);
 
-  double a = ((-2) - x) * (2 - (-3)) - (0 - (-2)) * ((-3) - y);
-  double b = (0 - x) * ((-3) - 2) - (2 - 0) * (2 - y);
-  double c = ((-2) - x) * ((-3) - (-3)) - ((-2) - 2) * ((-3) - y);
+//   double a = ((-2) - x) * (2 - (-3)) - (0 - (-2)) * ((-3) - y);
+//   double b = (0 - x) * ((-3) - 2) - (2 - 0) * (2 - y);
+//   double c = ((-2) - x) * ((-3) - (-3)) - ((-2) - 2) * ((-3) - y);
 
-  if ((a >= 0 && b >= 0 && c >= 0) || (a <= 0 && b <= 0 && c <= 0)) {
-    print("Принадлежит");
-  } else {
-    print("Не принадлежит");
-  }
-}
+//   if ((a >= 0 && b >= 0 && c >= 0) || (a <= 0 && b <= 0 && c <= 0)) {
+//     print("Принадлежит");
+//   } else {
+//     print("Не принадлежит");
+//   }
+// }
