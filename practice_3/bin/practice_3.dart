@@ -48,27 +48,28 @@ void main() {
 
 //   print(nums);
 // }
-  String nums = '';
-  String otvet = '';
-  File('nums.txt').readAsString().then((String a) {
-    for (int i = 0; i < a.length; i++) {
-      for (int j = 0; j < a[i].length; j++) {
-        if (a[i][j] != " ") {
-          nums += a[i][j];
-        }
-        if (a[i][j] == " ") {
-          try {
-            if (int.parse(nums) % 2 != 0) {
-              otvet += "$nums ";
-            }
-            nums = "";
-          } catch (e) {
-            print('That is not a number!');
-            continue;
-          }
-        }
-      }
-      File('nums.txt').writeAsString(otvet);
-    }
-  });
-}
+// задание 2
+//   String nums = '';
+//   String otvet = '';
+//   File('nums.txt').readAsString().then((String a) {
+//     for (int i = 0; i < a.length; i++) {
+//       for (int j = 0; j < a[i].length; j++) {
+//         if (a[i][j] != " ") {
+//           nums += a[i][j];
+//         }
+//         if (a[i][j] == " ") {
+//           try {
+//             if (int.parse(nums) % 2 != 0) {
+//               otvet += "$nums ";
+//             }
+//             nums = "";
+//           } catch (e) {
+//             print('That is not a number!');
+//             continue;
+//           }
+//         }
+//       }
+//       File('nums.txt').writeAsString(otvet);
+//     }
+//   });
+// }
